@@ -1,0 +1,192 @@
+html, body {
+	margin: 0;
+}
+/*HEADER*/
+#header-all {
+	display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 90px;
+    background-color: darkgray;
+}
+
+#header-left {
+	align-items: flex-start;
+    padding-right: 15rem;
+    padding-top: 40px;
+}
+
+#playing {
+	padding-left: 5rem;
+	padding-right: 2rem;
+}
+
+#more-music {
+	padding-right: 3rem;
+}
+
+#header-center {
+	padding-top: 40px;
+}
+
+#searchbar {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 180px;
+	text-align: center;
+}
+
+#header-right {
+	padding-top: 40px;
+}
+
+#name {
+	padding-right: 2rem;
+
+}
+
+#premium {
+	margin-right: 2rem;
+}
+
+#sign-in {
+
+}
+
+/*MAIN*/
+#main-all {
+	display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 30rem;
+    background-color: firebrick;
+}
+
+#main-left {
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 23.5rem;
+    margin-left: 60px;
+    margin-top: 5rem;
+}
+
+#songs {
+
+}
+
+#song-one {
+	display: flex;
+    align-items: flex-start;
+    width: 90px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+#song-two {
+	display: flex;
+    align-items: flex-start;
+    width: 90px;
+    margin-bottom: 20px;
+    padding-left: 28px;
+}
+
+#song-three {
+	display: flex;
+    align-items: flex-start;
+    width: 90px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+#song-four {
+	display: flex;
+    align-items: flex-start;
+    width: 90px;
+    padding-left: 30px;
+}
+
+#main-center {
+	margin-top: 5rem;
+}
+
+#logo {
+	width: 250px;
+	height: 210px;
+	margin-left: 1.5rem;
+}
+
+#track {
+	text-align: center;
+}
+
+#artist {
+	padding-left: 4rem;
+}
+
+#audio {
+
+}
+
+#main-right {
+	margin-left: 15rem;
+	margin-top: 5rem;
+	margin-right: 2rem;
+}
+ 
+#about-artist {
+
+} 
+
+#artist-info {
+
+}
+
+/*FOOTER*/
+#footer-all {
+	display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    background-color: darkgray;
+}
+
+#footer-left {
+margin-left: 2rem
+}
+
+#copyright {
+
+}
+
+#footer-center {
+
+}
+
+#dislike {
+
+}
+
+#replay {
+
+}
+
+#play-pause {
+
+}
+
+#skip {
+
+}
+
+#like {
+
+}
+
+#volume {
+
+}
+
+#footer-right {
+
+}
