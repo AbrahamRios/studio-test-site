@@ -12,17 +12,31 @@ html, body {
 
 #header-left {
 	align-items: flex-start;
-    padding-right: 15rem;
+    padding-right: 6.5rem;
     padding-top: 40px;
+    font-size: 18px;
 }
 
 #playing {
 	padding-left: 5rem;
 	padding-right: 2rem;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    color: firebrick;
 }
 
 #more-music {
-	padding-right: 3rem;
+	padding-right: 2rem;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    color: firebrick;
+}
+
+#platforms {
+    padding-right: 1rem;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    color: firebrick;
 }
 
 #header-center {
@@ -32,25 +46,45 @@ html, body {
 #searchbar {
 	padding-left: 20px;
 	padding-right: 20px;
-	margin-right: 180px;
+	margin-right: 110px;
 	text-align: center;
+    width: 10rem;
+    height: 1.5rem;
 }
 
 #header-right {
-	padding-top: 40px;
+	padding-top: 33px;
 }
 
 #name {
-	padding-right: 2rem;
-
+	padding-right: 4rem;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 22px;
 }
 
 #premium {
-	margin-right: 2rem;
+	margin-right: 1rem;
+    border-radius: 10%;
+    width: 80px;
+    height: 40px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: medium;
+    background-color: firebrick;
+    outline: none;
+    border: 3px solid black;
+    cursor: pointer;
 }
 
 #sign-in {
-
+    border-radius: 10%;
+    width: 70px;
+    height: 40px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: medium;
+    background-color: firebrick;
+    outline: none;
+    border: 3px solid black;
+    cursor: pointer;
 }
 
 /*MAIN*/
@@ -67,43 +101,77 @@ html, body {
     flex-direction: column;
     align-items: flex-start;
     margin-right: 23.5rem;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-top: 5rem;
 }
 
 #songs {
-
+    text-decoration: underline;
+    padding-left: 10px; 
 }
 
 #song-one {
 	display: flex;
     align-items: flex-start;
-    width: 90px;
+    width: 100px;
     margin-bottom: 20px;
     padding-left: 30px;
+    border-radius: 10%;
+    height: 40px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: larger;
+    background-color: firebrick;
+    outline: none;
+    border: 3px solid black;
+    cursor: pointer
 }
 
 #song-two {
 	display: flex;
     align-items: flex-start;
-    width: 90px;
+    width: 100px;
     margin-bottom: 20px;
     padding-left: 28px;
+    border-radius: 10%;
+    height: 40px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: larger;
+    background-color: firebrick;
+    outline: none;
+    border: 3px solid black;
+    cursor: pointer
 }
 
 #song-three {
 	display: flex;
     align-items: flex-start;
-    width: 90px;
+    width: 100px;
     margin-bottom: 20px;
     padding-left: 20px;
+    border-radius: 10%;
+    height: 40px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: large;
+    background-color: firebrick;
+    outline: none;
+    border: 3px solid black;
+    cursor: pointer
 }
 
 #song-four {
 	display: flex;
     align-items: flex-start;
-    width: 90px;
+    width: 100px;
     padding-left: 30px;
+    border-radius: 10%;
+    height: 40px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: larger;
+    background-color: firebrick;
+    outline: none;
+    border: 3px solid black;
+    cursor: pointer
+
 }
 
 #main-center {
@@ -130,7 +198,7 @@ html, body {
 
 #main-right {
 	margin-left: 15rem;
-	margin-top: 5rem;
+	margin-top: 3rem;
 	margin-right: 2rem;
 }
  
@@ -156,7 +224,7 @@ margin-left: 2rem
 }
 
 #copyright {
-
+    font-size: 0.8em;
 }
 
 #footer-center {
